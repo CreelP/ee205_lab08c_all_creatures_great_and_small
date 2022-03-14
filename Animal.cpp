@@ -2,16 +2,13 @@
 ///         University of Hawaii, College of Engineering
 /// @brief  ee205_lab08c_all_creatures_great_and_small - EE 205 - Spr 2022
 ///
-/// @file main.cpp
+/// @file Animal.cpp
 /// @version 1.0
 ///
 /// @author Creel Patrocinio <creel@hawaii.edu>
 /// @date   13_Mar_2022
 ///////////////////////////////////////////////////////////////////////////////
+#include "Animal.h"
+using namespace std;
 
-#include <iostream>
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+const string Animal::kingdom = "Animalia";
