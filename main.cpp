@@ -8,10 +8,13 @@
 /// @author Creel Patrocinio <creel@hawaii.edu>
 /// @date   13_Mar_2022
 ///////////////////////////////////////////////////////////////////////////////
-
+#include "Animal.h"
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Animal myFirstAnimal = Animal( "Felis catus" );
+    myFirstAnimal.setGender( MALE );
+    myFirstAnimal.setWeight( 19 ); // @todo Refactor to include Unit of Measure
+    myFirstAnimal.printInfo();
     return 0;
 }
